@@ -9,20 +9,17 @@
     <br>
     <a href="a.html">>돌아가기</a>
     <script>
-      function calp() {
-        var inputnum=prompt('숫자를 입력해 주세요');
-      }
       function p(n){
          if (n==1); {
            return n;
-         } else {
+         else
            return n * p(n-1);
          }
-       }
-       calp();
-       var ans=p(inputnum);
-       alert(ans);
-     </script>
+      }
+      var n=prompt('숫자입력');
+      var ans=p(n);
+      alert(ans);
+    </script>
    </body>
  </html>
             
