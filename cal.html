@@ -10,16 +10,18 @@
     <a href="a.html">>돌아가기</a>
     <script>
       function p(n){
-         if (n==1); {
+         if (n==1) {
            return n;
          else
            return n * p(n-1);
          }
       }
-      var n=prompt('숫자입력');
-      var ans=p(n);
-      alert(ans);
+      function a(){
+        var n=prompt('숫자입력');
+        var ans=p(n);
+        alert(ans);
     </script>
+    <input type="button" value="펙토리얼 계산" onclick="a()"/>
    </body>
  </html>
             
